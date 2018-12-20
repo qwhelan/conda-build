@@ -19,7 +19,7 @@ import conda_build.api as api
 import conda_build.build as build
 import conda_build.utils as utils
 from conda_build.conda_interface import (add_parser_channels, url_path, binstar_upload,
-                                         cc_conda_build)
+                                         cc_conda_build, context)
 from conda_build.cli.main_render import get_render_parser
 import conda_build.source as source
 from conda_build.utils import LoggingContext
